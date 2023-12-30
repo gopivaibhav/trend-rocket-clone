@@ -63,7 +63,7 @@ export default function RadialChart() {
   }, [isChartRendered]);
 
   return (
-    <div>
+    <div className="radial_container">
       <div id="chart2" ref={chartRef}></div>
       <ul id="listRadialBar">
         <li>28</li>

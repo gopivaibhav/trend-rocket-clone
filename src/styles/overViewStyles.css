@@ -1,0 +1,102 @@
+.overview_container {
+  margin-inline: 55px;
+  /* border: 1px solid black; */
+}
+
+.overview_container > h1 {
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.overview_container > p {
+  line-height: 1.57143;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+}
+
+.overview_cards {
+  display: flex;
+  gap: 20px;
+}
+
+.icons {
+  max-width: 25%;
+  flex-basis: 25%;
+}
+
+.icons_list {
+  list-style: none;
+  padding-left: 0%;
+  margin: 0%;
+}
+
+.icons_list > li {
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  border: 1px solid rgb(234, 236, 240);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons_list > li:first-child {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.icons_list > li:last-child {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.icons_list > li > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stars {
+  max-width: 25%;
+  flex-basis: 25%;
+  border: 1px solid rgb(234, 236, 240);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.whiteStars {
+  display: flex;
+  gap: 5px;
+}
+
+.graph1 {
+  max-width: 25%;
+  flex-basis: 25%;
+  border: 1px solid rgb(234, 236, 240);
+  border-radius: 12px;
+}
+
+.graph1 > div,
+.garph2 > div {
+  display: flex;
+  margin-inline: 30px;
+  justify-content: space-between;
+  /* margin-top: 20px; */
+}
+
+.graph1_heading,
+.graph2_heading {
+  margin-top: 20px;
+}
+
+.garph2 {
+  max-width: 25%;
+  flex-basis: 25%;
+  border: 1px solid rgb(234, 236, 240);
+  border-radius: 12px;
+}
