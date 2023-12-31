@@ -5,7 +5,7 @@ import redirect from "../assets/redirect.svg";
 import profiePhoto from "../assets/profilePhoto_652070498243383.jpg";
 import "../styles/headerSectionStyles.css";
 
-export default function () {
+export default function HeaderSection() {
   return (
     <div className="header_container">
       <div className="background_image"></div>

@@ -1,0 +1,33 @@
+
+.nav_container{
+    display: flex;
+    flex-direction: column;
+    /* gap: 15px; */
+    margin-inline: 55px;
+    margin-bottom: 24px;
+}
+
+.line{
+    width: inherit;
+    height: 1px;
+    background-color: rgb(196, 202, 211);
+}
+
+.nav_list{
+    list-style: none;
+    padding-left: 0%;
+    display: flex;
+    gap: 40px;
+}
+
+.nav_list>li{
+    line-height: 1.25;
+    font-size: 0.875rem;
+    color: rgb(71, 84, 103);
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.nav_list>li:hover{
+    cursor: pointer;
+}
