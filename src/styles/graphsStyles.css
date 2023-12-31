@@ -1,13 +1,16 @@
 .graphs_container{
-    display: flex;
+    /* display: flex; */
     margin-inline: 55px;
     margin-block: 25px;
     gap: 30px;
+    /* flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .graphs_card{
-    flex-basis: 33%;
-    max-width: 33.3%;
+    /* flex-basis: 30%; */
+    /* max-width: 33.3%; */
     border: 1px solid rgb(234, 236, 240);
     border-radius: 12px;
     padding-inline: 15px;
@@ -43,4 +46,18 @@
 .graphs_leftpart>p>span{
     color: rgb(18, 183, 106);
     padding-right: 8px;
+}
+
+@media (max-width: 1200px) {
+    .graphs_container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 850px)
+{
+    .graphs_container{
+        grid-template-columns: 1fr;
+        margin-inline: 25px;
+    }
 }

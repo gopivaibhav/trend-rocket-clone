@@ -17,14 +17,16 @@
 }
 
 .overview_cards {
-  display: flex;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
 }
 
-.icons {
+/* .icons {
   max-width: 25%;
   flex-basis: 25%;
-}
+} */
 
 .icons_list {
   list-style: none;
@@ -65,8 +67,8 @@
 }
 
 .stars {
-  max-width: 25%;
-  flex-basis: 25%;
+  /* max-width: 25%; */
+  /* flex-basis: 25%; */
   border: 1px solid rgb(234, 236, 240);
   border-radius: 12px;
   display: flex;
@@ -75,6 +77,7 @@
   align-items: center;
   gap: 20px;
   background-color: white;
+  padding-block: 30px;
 }
 
 .whiteStars {
@@ -83,11 +86,13 @@
 }
 
 .graph1 {
-  max-width: 25%;
-  flex-basis: 25%;
+  /* max-width: 25%; */
+  /* flex-basis: 25%; */
   border: 1px solid rgb(234, 236, 240);
   border-radius: 12px;
   background-color: white;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 .graph1 > div,
@@ -104,9 +109,27 @@
 }
 
 .garph2 {
-  max-width: 25%;
-  flex-basis: 25%;
+  /* max-width: 25%; */
+  /* flex-basis: 25%; */
   border: 1px solid rgb(234, 236, 240);
   border-radius: 12px;
   background-color: white;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 1200px){
+  .overview_cards{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width:850px)
+{
+  .overview_container{
+    margin-inline: 25px;
+  }
+  .overview_cards{
+    grid-template-columns: 1fr;
+  }
 }
