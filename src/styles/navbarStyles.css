@@ -31,3 +31,10 @@
 .nav_list>li:hover{
     cursor: pointer;
 }
+
+@media(max-width:1000px)
+{
+    .nav_container{
+        display: none;
+    }
+}

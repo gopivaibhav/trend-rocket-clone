@@ -73,3 +73,29 @@
     line-height: 1.71429;
     font-size: 0.875rem;
 }
+
+.dots{
+    display: none;
+}
+
+@media (max-width: 850px) {
+    .header_collection{
+        margin-inline: 25px;
+    }
+    .rightPart{
+        display: none;
+    }
+    .dots{
+        display: block;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        border: 1px solid rgb(208, 213, 221);
+        background-color: white; 
+        padding: 8px;
+        margin-top: 25px;
+    }
+}

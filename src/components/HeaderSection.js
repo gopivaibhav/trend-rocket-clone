@@ -4,6 +4,7 @@ import redirect from "../assets/redirect.svg";
 // import backgroundImage from "../assets/pageCoverPhoto_652070498243383.jpg";
 import profiePhoto from "../assets/profilePhoto_652070498243383.jpg";
 import "../styles/headerSectionStyles.css";
+import threedots from "../assets/threedots.svg";
 
 export default function HeaderSection() {
   return (
@@ -24,6 +25,9 @@ export default function HeaderSection() {
               <img src={redirect} alt="redirect" />
               Website
             </button>
+          </div>
+          <div className="dots">
+            <img src={threedots} alt="dots" />
           </div>
         </div>
       </div>
