@@ -127,7 +127,9 @@
 @media (max-width:850px)
 {
   .overview_container{
-    margin-inline: 25px;
+    /* margin-inline: 25px; */
+    width: 90%;
+    margin-inline: auto;
   }
   .overview_cards{
     grid-template-columns: 1fr;

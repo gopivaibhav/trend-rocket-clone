@@ -109,7 +109,9 @@
 
 @media (max-width: 850px) {
     .header_collection{
-        margin-inline: 25px;
+        /* margin-inline: 25px; */
+        width: 90%;
+        margin-inline: auto;
     }
     .rightPart{
         display: none;
