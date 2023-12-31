@@ -1,0 +1,58 @@
+
+.dates_container{
+    margin-inline: 55px;
+    display: flex;
+    justify-content: space-between;
+    margin-block: 25px;
+}
+
+.dates_list{
+    list-style: none;
+    padding-left: 0%;
+    display: flex;
+}
+
+.dates_list>li{
+    padding: 11px;
+    background-color: white;
+    line-height: 1.71429;
+    font-size: 0.875rem;
+    color: rgb(71, 84, 103);
+    border: 1px solid rgb(208, 213, 221);
+    border-right: 0px;
+    font-weight: 600;
+}
+
+.dates_list>li:hover{
+    cursor: pointer;
+}
+
+.dates_list>li:first-child{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.dates_list>li:last-child{
+    border-right: 1px solid rgb(208, 213, 221);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.dates_rightpart{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-inline: 16px;
+    padding-block: 8px;
+    border: 1px solid rgb(208, 213, 221);
+    background-color: white;
+    border-radius: 12px;
+}
+
+.dates_rightpart>p{
+    white-space: nowrap;
+    font-weight: 500;
+    line-height: 1.57143;
+    font-size: 0.875rem;
+    color: rgb(71, 84, 103);
+}
