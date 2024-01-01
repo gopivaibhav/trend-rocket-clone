@@ -22,7 +22,7 @@
 
 .header_collection{
     display: flex;
-    margin-inline: 50px;
+    margin-inline: 25px;
     gap: 20px;
 }
 

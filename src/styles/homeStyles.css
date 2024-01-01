@@ -1,0 +1,13 @@
+
+.home_rightpart{
+    margin-left: 80px;
+}
+
+@media(max-width:1200px){
+    .sidebar{
+        display: none;
+    }
+    .home_rightpart{
+        margin-left: 0px;
+    }
+}
