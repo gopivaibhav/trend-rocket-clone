@@ -92,7 +92,7 @@
   border-radius: 12px;
   background-color: white;
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .graph1 > div,
@@ -115,7 +115,7 @@
   border-radius: 12px;
   background-color: white;
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 @media (max-width: 1200px){
